@@ -1,0 +1,24 @@
+body {
+    border: 1px solid red;
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+header nav ol {
+    text-align: center;
+}
+
+header nav ol li {
+    background: blue;
+    border: 1px solid rgb(76, 76, 105);
+    margin-right: 25px;
+    color: yellow;
+    padding: 10px 26px;
+    display: inline-block;
+}
+
+header nav ol li:hover {
+    background: yellow;
+    color: blue;
+}
