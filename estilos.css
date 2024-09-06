@@ -5,6 +5,11 @@ body {
     margin: 0px auto;
 }
 
+header img {
+    width: 100px;
+    border-radius: 500px;
+}
+
 header nav ol {
     text-align: center;
 }
@@ -13,12 +18,28 @@ header nav ol li {
     background: blue;
     border: 1px solid rgb(76, 76, 105);
     margin-right: 25px;
+    border-radius: 5px;
     color: yellow;
     padding: 10px 26px;
     display: inline-block;
+    box-shadow: 4px 4px 20px gray;
 }
 
 header nav ol li:hover {
     background: yellow;
     color: blue;
+    box-shadow: 0px 0px 0px white;
+}
+
+main section article {
+    border: 1px solid red;
+    display: inline-block;
+
+    vertical-align: top;
+    text-align: center;
+    width: 32.87%;
+}
+
+footer {
+    border: 1px solid blue;
 }
